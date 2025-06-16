@@ -77,7 +77,7 @@ const zipFolder = async (source, outPath) => {
 
 const run = async () => {
   const ticketKeys = process.argv.slice(2);
-  const fallbackTickets = ["APEX-1557"];
+  const fallbackTickets = ["OLCD-888"];
   const ticketsToProcess = ticketKeys.length ? ticketKeys : fallbackTickets;
 
   const baseOutput = path.join(__dirname, "output");
