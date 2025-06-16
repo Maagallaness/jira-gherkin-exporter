@@ -66,11 +66,11 @@ https://id.atlassian.com/manage/api-tokens
 
 Extract a single Jira ticket
 
-node index.js APEX-1557
+node index.js "TICKET NAME"
 
 Extract multiple tickets at once
 
-node index.js APEX-1557 APEX-2024 UI-1234
+node index.js "TICKET NAME" "TICKET NAME" "TICKET NAME"
 
 
 ⸻
@@ -79,9 +79,9 @@ node index.js APEX-1557 APEX-2024 UI-1234
 
 output/
 └── APEX-1557/
-    ├── APEX-1557.md           ← Markdown summary
-    ├── APEX-1557.feature      ← Gherkin file
-    ├── APEX-1557.zip          ← Archived folder (same contents)
+    ├── "TICKET NAME".md           ← Markdown summary
+    ├── "TICKET NAME".feature      ← Gherkin file
+    ├── "TICKET NAME".zip          ← Archived folder (same contents)
     ├── screenshots/           ← Jira image attachments
     └── docs/                  ← PDF, XLSX, DOCX attachments
 
